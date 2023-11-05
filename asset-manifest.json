@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rickAndMortyApp.git/static/css/main.7ab3bb1f.css",
+    "main.js": "/rickAndMortyApp.git/static/js/main.73277226.js",
+    "static/js/787.360eb5ce.chunk.js": "/rickAndMortyApp.git/static/js/787.360eb5ce.chunk.js",
+    "index.html": "/rickAndMortyApp.git/index.html",
+    "main.7ab3bb1f.css.map": "/rickAndMortyApp.git/static/css/main.7ab3bb1f.css.map",
+    "main.73277226.js.map": "/rickAndMortyApp.git/static/js/main.73277226.js.map",
+    "787.360eb5ce.chunk.js.map": "/rickAndMortyApp.git/static/js/787.360eb5ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ab3bb1f.css",
+    "static/js/main.73277226.js"
+  ]
+}
