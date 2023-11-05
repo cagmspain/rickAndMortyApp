@@ -2,7 +2,7 @@ Descripcion aplicacion :
 
 stack: react + bootstrap
 run: npm start
-demo: enlace
+demo:https://cagmspain.github.io/rickAndMortyApp/
 
 Requisitos técnicos
 − Conexión a la API: es necesario obtener los datos utilizando la API:
