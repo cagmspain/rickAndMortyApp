@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+Descripcion aplicacion :
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+stack: react + bootstrap
+run: npm start
+demo: enlace
 
-## Available Scripts
+Requisitos técnicos
+− Conexión a la API: es necesario obtener los datos utilizando la API:
+https://rickandmortyapi.com/documentation [HECHO]
+− Estilo y diseño: Utilizar CSS para dar estilo a la aplicación y hacer que sea atractiva y fácil de
+utilizar. No hace falta que sea altamente elaborada, pero debe ser funcional y agradable a la
+vista.
+− Responsive: la aplicación debe ser totalmente responsiva y que se vea bien en dispositivos
+móviles y de escritorio.
+− Documentación: proporcionar una documentación de la pila tecnológica utilizada,
+instrucciones para poner en marcha el proyecto e idealmente un enlace a una demo.
 
-In the project directory, you can run:
+Puntos adicionales (opcionales)
+Si deseas destacar aún más, puedes considerar añadir las siguientes características opcionales a la
+aplicación:
 
-### `npm start`
+− Búsqueda de personajes: implementar la funcionalidad de búsqueda mediante el campo de
+investigación. La aplicación debe mostrar una lista de los personajes coincidentes en tiempo
+real a medida que el usuario escribe en el campo de búsqueda.
+− Implementar la carga infinita o un botón 'Muestra más' a medida que el usuario hace scroll.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Evaluación
+− Funcionalidad: La aplicación cumple con los requisitos funcionales especificados.
+− Diseño y estilo: La interfaz de usuario es atractiva y fácil de utilizar.
+− Conexión a la API: Se conecta correctamente a la API.
+− Código neto: El código es legible, bien organizado y sigue buenas prácticas de programación.
+− Responsive: La aplicación se ve bien y funciona en dispositivos móviles y de escritorio.
+− Documentación: Con la información que se considere necesaria para explicar el proyecto
+Entrega
+Una vez que hayas completado la prueba técnica, envía tu proyecto como un repositorio de Git y
+proporcione instrucciones claras sobre cómo ejecutarlo localmente. Asegúrate de incluir un archivo
+README con detalles sobre el proyecto y cómo se han cumplido los requisitos.
+¡Mucha suerte! ¡Esperamos ver tu proyecto!

@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import React from "react";
+import { useEffect, useState } from "react";
+import TimeLine from "./components/TimeLine/Timeline";
+import Spinner from "react-bootstrap/Spinner";
+//import characters from "./data/characters.json";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [characters, setCharacters] = useState([]);
+	const [loading, setLoading] = useState(true);
+
+	useEffect(() => {
+		async function fetchData() {
+			const response = await fetch("https://rickandmortyapi.com/api/character");
+			const data = await response.json();
+			setLoading(false);
+			setCharacters(data.results);
+		}
+		fetchData();
+	}, []);
+	return (
+		<div className="App bg-black text-white">
+			<header>
+				<h1>Ricky and Morty Characters</h1>
+			</header>
+			{loading ? (
+				<div className="container text-center">
+					<Spinner animation="border" role="status">
+						<span className="visually-hidden">Loading...</span>
+					</Spinner>
+				</div>
+			) : (
+				<main>
+					<TimeLine className="container" data={characters} />
+				</main>
+			)}
+		</div>
+	);
 }
 
 export default App;
